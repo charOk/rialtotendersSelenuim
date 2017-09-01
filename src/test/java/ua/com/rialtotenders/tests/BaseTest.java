@@ -16,7 +16,7 @@ public class BaseTest {
 
     @BeforeClass
     public static void beforeClassParent() {
-        System.out.println("beforeClassParent");
+        //TODO MOVE IT UP and RUN THIS ONCE
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 
         driver = new ChromeDriver();

@@ -13,7 +13,7 @@ public class HeaderPage extends BasePage{
     @FindBy(css = (".c-header__logo"))
     private WebElement logo;
 
-    @FindBy(css = ("a[href='/aboutLink']"))
+    @FindBy(css = ("[href='/about']"))
     private WebElement aboutLink;
 
 
@@ -25,7 +25,6 @@ public class HeaderPage extends BasePage{
     public void clickLogo() {
         clickTo(logo);
     }
-
 
     public void clickAbout() {
         clickTo(aboutLink);
